@@ -1,9 +1,10 @@
   
          
-         function change() {     
-            var header = document.getElementById("hid123");     
-            header.innerHTML = "CSIE@CGU";     
-            var para = document.getElementById("pid123");     
+         function change() { 
+            var header=$("hid123")[0];     
+            header.innerHTML = "CSIE@CGU";
+            var para=$("pid123")[0];
+                
             para.innerHTML = "怎麼那麼棒！！.";   
         }   
             function myFunction() 
